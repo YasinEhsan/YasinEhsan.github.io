@@ -1,22 +1,94 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home page</title>
+  <html>
+    <script src="https://use.fontawesome.com/9cabbed325.js"></script>
+    <head>
+      <title>Yasin Ehsan</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="animate.css" rel="stylesheet">
+      <!-- google fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+
     <style media="screen">
-      h1{
-        font: 45px italic bold;
-				color:orangered;
-				border-left: 3px solid ;
-				padding-left: 10px;
-				margin:3%;
-				margin-left: 10%;
-      }
+    html{
+      color: #ff4d4d;
+    }
+
+    body{
+        margin: 0;
+    }
+
+    #particles-js{
+        background:black;
+        height: 100vh;
+    }
+
+    .btext{
+        color: #f9f3f4;
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: 100%;
+        line-height: 0.8em;
+    }
+
+    .btn{
+        color: #fff;
+        text-decoration: none;
+        border: #ccc 1px solid;
+        padding: 10px 15px;
+        border-radius: 8px;
+        line-height: 4em;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .btn:hover{
+        color: #ff4d4d;
+        border: #fff 2px solid;
+    }
+
+    .item{
+        font-size: 40px;
+        display:inline-block;
+        font-family: 'Montserrat', sans-serif;
+        text-indent: .5em;
+    }
+
+    #one{
+      color: #e60000
+    }
+
+    #two{
+      color: #ff4d4d;
+    }
+
+    #three{
+      color: #ff9999;
+    }
+
+    #create{
+      font-weight: 1000;
+      font-style: italic;
+    }
 
     </style>
-  </head>
-  <body>
-    <h1>Yasi Ehsan</h1>
+    </head>
 
-  </body>
-</html>
+    <body>
+      <div id="particles-js">
+          <div class="btext">
+            <p>
+              <span id="one" class="item animated rollIn">Some Follow. </span>
+              <span id="two" class="item animated rollIn">Others Lead. </span>
+              <span id="three" class="item animated rollIn">Few <span id="create">Create.</span> </span>
+            </p>
+            <a href="about.html" class="btn">Learn More</a>
+          </div>
+      </div>
+
+      <!-- particles css -->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script type="text/javascript">
+      particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('callback - particles.js config loaded');}); </script>
+    </body>
+  </html>

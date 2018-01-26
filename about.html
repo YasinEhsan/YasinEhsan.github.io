@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+  <html>
+
+    <head>
+      <title>About</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- fontawesome -->
+      <script src="https://use.fontawesome.com/9cabbed325.js"></script>
+      <!-- materilize css -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+
+      <style media="screen">
+        html{
+          color: #ff4d4d;
+        }
+
+        body{
+            /*margin: 0;*/
+            height:100vh;
+            background-color: black;
+        }
+
+        #particles-js{
+            background:black;
+            height:100vh;
+
+        }
+
+        #bar{
+          background-color: #1a1a1a;
+          font-family: 'Montserrat', sans-serif;
+          position: fixed;
+        }
+
+        .nav{
+          font-size: 150%;
+          color: #ff4d4d;
+        }
+        .nav:hover, .name:hover{
+          opacity: 0.6;
+        }
+
+        .name{
+          padding-left: 5%;
+          font-size: 250%;
+          color: #ff4d4d;
+        }
+
+        .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 30px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+          border-radius: 50%;
+          color:#ff4d4d;
+        }
+        .fa:hover {
+          opacity: 0.7;
+        }
+        .social{
+          position: fixed;
+          bottom: 0;
+          right: 3%;
+        }
+        span{
+          color: white;
+        }
+        .container{
+          background: blue;
+          width: 50vw;
+          height: 50vh;
+          position:fixed;
+          margin:25vw;
+        }
+
+      </style>
+    </head>
+
+    <body>
+      <div class="wrapper">
+        <nav id="bar">
+          <div class="nav-wrapper">
+            <a class="name"  class="brand-logo" href="index.html">Yasin Ehsan</a>
+             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars" aria-hidden="true">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+              <li><a class="nav" href="about.html">About</a></li>
+              <li><a class="nav" href="projects.html">Projects</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a class="nav" href="about.html">About</a></li>
+              <li><a class="nav" href="projects.html">Projects</a></li>
+           </ul>
+          </div>
+        </nav>
+        <div id="particles-js">
+          <div class="container">
+            <span>this is a conatner</span>
+          </div>
+        </div>
+
+
+        <div class="social">
+          <a href="https://www.github.com/YasinEhsan" class="fa fa-github"> </a>
+          <a href="https://www.linkedin.com/in/yasin-ehsan-027616133/" class="fa fa-linkedin"> </a>
+          <a href="mailto:yasinehsan11@gmail.com?Subject=Visited%20Website%20--" class="fa fa-envelope" aria-hidden="true"></a>
+        </div>
+      </div>
+
+      <!-- materilize css -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <!-- particles css -->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script> $(".button-collapse").sideNav();</script>
+      <script type="text/javascript">
+      particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('callback - particles.js config loaded');});
+       </script>
+    </body>
+  </html>
