@@ -4,12 +4,17 @@
     <head>
       <title>About</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Import materialize.css-->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- google text fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
       <!-- fontawesome -->
       <script src="https://use.fontawesome.com/9cabbed325.js"></script>
-      <!-- materilize css -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-      <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
 
       <style media="screen">
         html{
@@ -34,11 +39,11 @@
           position: fixed;
         }
 
-        .nav{
+        .navt{
           font-size: 150%;
           color: #ff4d4d;
         }
-        .nav:hover, .name:hover{
+        .navt:hover, .name:hover{
           opacity: 0.6;
         }
 
@@ -69,35 +74,41 @@
         span{
           color: white;
         }
-        .container{
+        .bio{
           background: blue;
           width: 50vw;
           height: 50vh;
           position:fixed;
           margin:25vw;
+          opacity: 0.7;
         }
+
 
       </style>
     </head>
 
     <body>
       <div class="wrapper">
-        <nav id="bar">
+        <nav id="bar" data-activates="mobile-demo" class="button-collapse">
           <div class="nav-wrapper">
-            <a class="name"  class="brand-logo" href="index.html">Yasin Ehsan</a>
-             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars" aria-hidden="true">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-              <li><a class="nav" href="about.html">About</a></li>
-              <li><a class="nav" href="projects.html">Projects</a></li>
+            <a href="index.html" class="brand-logo" class="name" >Yasin Ehsan</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons"></i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a class="navt" href="about.html">About</a></li>
+              <li><a class="navt" href="projects.html">Projects</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
-              <li><a class="nav" href="about.html">About</a></li>
-              <li><a class="nav" href="projects.html">Projects</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
            </ul>
           </div>
         </nav>
+        <script type="text/javascript">
+            $(".button-collapse").sideNav();
+        </script>
+
         <div id="particles-js">
-          <div class="container">
+          <div class="bio">
             <span>this is a conatner</span>
           </div>
         </div>
@@ -108,16 +119,14 @@
           <a href="https://www.linkedin.com/in/yasin-ehsan-027616133/" class="fa fa-linkedin"> </a>
           <a href="mailto:yasinehsan11@gmail.com?Subject=Visited%20Website%20--" class="fa fa-envelope" aria-hidden="true"></a>
         </div>
-      </div>
 
-      <!-- materilize css -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+      </div>
       <!-- particles css -->
       <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-      <script> $(".button-collapse").sideNav();</script>
       <script type="text/javascript">
-      particlesJS.load('particles-js', 'particles.json', function() {
-      console.log('callback - particles.js config loaded');});
-       </script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');});
+      </script>
     </body>
   </html>
