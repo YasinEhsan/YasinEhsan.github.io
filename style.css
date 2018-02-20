@@ -1,0 +1,42 @@
+
+#tab:hover, #name:hover, #social:hover{
+    opacity: 0.6;
+}
+#bar{
+  background-color: #1a1a1a;
+  font-family: 'Montserrat', sans-serif;
+}
+#name{
+  color: #ff4d4d;
+  padding-left: 5%;
+  font-size: 250%;
+}
+#tab{
+  font-size: 150%;
+  color: #ff4d4d;
+}
+#mobilebar{
+  color: #ff4d4d;
+}
+#side{ /*image of me*/
+  margin-left: -20%;
+  margin-top: 20%;
+  transform: rotate(-90deg);
+}
+#bio{
+  font-size: 200%;
+}
+.fa {
+  font-size: 200%;
+  width: 10%;
+  color:#ff4d4d;
+  padding-bottom: 2%;
+}
+
+/**/
+/*
+HANDY THINGS TO KNOW
+-rotating image... transform: rotate(-90deg);
+-background img... background-image: url("img/roof2.jpg");
+
+*/

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html>
+  <html class="black">
 
     <head>
       <title>About</title>
@@ -8,120 +8,71 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!-- google text fonts -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
       <!-- fontawesome -->
       <script src="https://use.fontawesome.com/9cabbed325.js"></script>
-
-      <style media="screen">
-        html{
-          color: #ff4d4d;
-        }
-
-        body{
-            /*margin: 0;*/
-            height:100vh;
-            background-color: black;
-        }
-
-        #particles-js{
-            background:black;
-            height:100vh;
-
-        }
-
-        #bar{
-          background-color: #1a1a1a;
-          font-family: 'Montserrat', sans-serif;
-          position: fixed;
-        }
-
-        .navt{
-          font-size: 150%;
-          color: #ff4d4d;
-        }
-        .navt:hover, .name:hover{
-          opacity: 0.6;
-        }
-
-        .name{
-          padding-left: 5%;
-          font-size: 250%;
-          color: #ff4d4d;
-        }
-
-        .fa {
-          padding: 20px;
-          font-size: 30px;
-          width: 30px;
-          text-align: center;
-          text-decoration: none;
-          margin: 5px 2px;
-          border-radius: 50%;
-          color:#ff4d4d;
-        }
-        .fa:hover {
-          opacity: 0.7;
-        }
-        .social{
-          position: fixed;
-          bottom: 0;
-          right: 3%;
-        }
-        span{
-          color: white;
-        }
-        .bio{
-          background: blue;
-          width: 50vw;
-          height: 50vh;
-          position:fixed;
-          margin:25vw;
-          opacity: 0.7;
-        }
-
-
-      </style>
+      <!-- Stylesheets -->
+      <link href="style.css" rel="stylesheet">
+      <link href="animate.css" rel="stylesheet">
     </head>
 
     <body>
       <div class="wrapper">
-        <nav>
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo">Logo</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="about.html">about</a></li>
-          <li><a href="projects.html">projects</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="about.html">abt</a></li>
-          <li><a href="projects.html">pro</a></li>
-        </ul>
-      </div>
-    </nav>
-        <script type="text/javascript">
-            $(".button-collapse").sideNav();
-        </script>
+        <header>
+          <nav>
+            <div class="nav-wrapper grey darken-4" id="bar">
+              <a href="index.html" class="brand-logo" id="name">Yasin Ehsan</a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="about.html" class="navt" id="tab" >About</a></li>
+                <li><a href="projects.html" class="navt" id="tab">Projects</a></li>
+              </ul>
+              <div id="mobilebar">
+                <ul class="side-nav grey darken-4" id="mobile-demo">
+                  <li><a href="about.html" class="text-darken-2" id="tab">About</a></li>
+                  <li><a href="projects.html" id="tab">Projects</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
 
-        <div id="particles-js">
-          <div class="bio">
-            <span>this is a conatner</span>
+        <main>
+          <div class="row">
+            <div class="col s6 hide-on-med-and-down">
+              <div id="side">
+                <img src="img/roof2.jpg" alt="daroof" width="100%">
+              </div>
+            </div>
+            <div class="col s6 white-text " id="bio">
+
+              <p>Hi!</p>
+              <p>I'm Yasin. I am...</p>
+              <p>in love with football and tiramisu.</p>
+              <p>passionate about entrepreneurship in tech.</p>
+              <p>studying Quantitative Economics and Computer Science at The City University of New York, Queens Collge.</p>
+              <p>My strongest programming langauges are C++ and Java.</p>
+              <a href="mailto:yasinehsan11@gmail.com?Subject=Requesting%20Resume%20--%20(name here)"><p>Resume.</p></a>
+
+           </div>
           </div>
-        </div>
+        </main>
 
-
-        <div class="social">
-          <a href="https://www.github.com/YasinEhsan" class="fa fa-github"> </a>
-          <a href="https://www.linkedin.com/in/yasin-ehsan-027616133/" class="fa fa-linkedin"> </a>
-          <a href="mailto:yasinehsan11@gmail.com?Subject=Visited%20Website%20--" class="fa fa-envelope" aria-hidden="true"></a>
-        </div>
-
+        <footer class="page-footer grey darken-4 center-align">
+          <a class="fa fa-github" id="social" href="https://www.github.com/YasinEhsan">  </a>
+          <a class="fa fa-linkedin" id="social" href="https://www.linkedin.com/in/yasin-ehsan-027616133/"> </a>
+          <a class="fa fa-envelope" id="social" aria-hidden="true" href="mailto:yasinehsan11@gmail.com?Subject=Visited%20Website%20--"></a>
+        </footer>
 
       </div>
+
+      <!-- Navbar -->
+      <script type="text/javascript">
+          $(".button-collapse").sideNav();
+      </script>
       <!-- particles css -->
       <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
       <script type="text/javascript">
