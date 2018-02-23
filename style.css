@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-#tab:hover, #name:hover, #social:hover{
+#tab:hover, #name:hover, #social:hover, #tab:hover{
     opacity: 0.6;
 }
 
@@ -16,7 +16,6 @@ header{
 
 }
 #bar{
-  background-color: #1a1a1a;
   font-family: 'Montserrat', sans-serif;
 }
 #name{
@@ -45,17 +44,28 @@ main {
 #pic{
   transform: rotate(-90deg);
   flex-shrink: 0;
-  max-width: 165%;
-  margin-left: -35%;
-  margin-top: 20%
+  max-width: 185%;
+  margin: 0% 0% 0% -40%;
 }
 #biodiv{
-  font-size: 200%;
-  width: 60%;
+  /*font-size: 200%;*/
   float: left;
-  padding-left: 0%;
+  padding: 2% 5% 8% 5%;
+  font: 200% 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  color: white;
 }
-
+#hi{
+  font-size: 300%;
+}
+#yasin{
+  font-size: 150%;
+}
+.biobold{
+  font-style: italic;
+  font-weight: 900;
+  font-size: 100%;
+}
 /*footer*/
 footer{
   position: fixed;

@@ -1,96 +1,62 @@
 <!DOCTYPE html>
-  <html>
-    <script src="https://use.fontawesome.com/9cabbed325.js"></script>
+  <html class="black">
+
     <head>
-      <title>pro</title>
+      <title>About</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-      <style media="screen">
-        html{
-          color: #ff4d4d;
-        }
-        body{
-          background: black;
-          position: relative;
-          min-height: 100vh;
-          margin: 0;
-        }
-        .wrap{
-          position: ;
-        }
-        .nav{
-          color: #ff4d4d;
-          font-size: 150%;
-          font-family: 'Montserrat', sans-serif;
-        }
-        .nav:hover{
-          opacity: 0.7;
-        }
-        .name{
-          padding-left: 3%;
-          font-size: 250%;
-          color: #ff4d4d;
-          font-family: 'Montserrat', sans-serif;
-        }
-        .name:hover{
-          opacity: .7;
-        }
-        .fa {
-          padding: 20px;
-          font-size: 30px;
-          width: 30px;
-          text-align: center;
-          text-decoration: none;
-          margin: 5px 2px;
-          border-radius: 50%;
-          color:#ff4d4d;
-        }
-        .fa:hover {
-          opacity: 0.7;
-        }
-        .social{
-          position: fixed;
-          bottom: 0;
-          right: 3%;
-        }
-
-      </style>
+      <!--Import materialize.css-->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+      <!-- google text fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+      <!-- fontawesome -->
+      <script src="https://use.fontawesome.com/9cabbed325.js"></script>
+      <!-- Stylesheets -->
+      <link href="style.css" rel="stylesheet">
+      <link href="animate.css" rel="stylesheet">
     </head>
 
     <body>
-      <div class="wrap">
-        <nav>
-          <div class="nav-wrapper black">
-            <a class="name" class="nav"  class="brand-logo"href="index.html">Yasin Ehsan</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a class="nav" href="about.html">About</a></li>
-              <li><a class="nav" href="projects.html">Projects</a></li>
-            </ul>
+      <div class="wrapper">
+        <header>
+          <nav>
+            <div class="nav-wrapper grey darken-4" id="bar">
+              <a href="index.html" class="brand-logo" id="name">Yasin Ehsan</a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="about.html" class="navt" id="tab" >About</a></li>
+                <li><a href="projects.html" class="navt" id="tab">Projects</a></li>
+              </ul>
+              <div id="mobilebar">
+                <ul class="side-nav black" id="mobile-demo">
+                  <li><a href="about.html" class="grey darken-4" id="tab">About</a></li>
+                  <li><a href="projects.html" class="grey darken-4" id="tab">Projects</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main>
+        </main>
+        <footer class="page-footer grey darken-4 center-align">
+          <div id="footer">
+            <a class="fa fa-github" id="social" href="https://www.github.com/YasinEhsan">  </a>
+            <a class="fa fa-linkedin" id="social" href="https://www.linkedin.com/in/yasin-ehsan-027616133/"> </a>
+            <a class="fa fa-envelope" id="social" aria-hidden="true" href="mailto:yasinehsan11@gmail.com?Subject=Visited%20Website%20--"></a>
           </div>
-        </nav>
-        <div id="particles-js">
-
-        </div>
-        <div class="social">
-          <a href="https://www.github.com/YasinEhsan" class="fa fa-github"> </a>
-          <a href="https://www.linkedin.com/in/yasin-ehsan-027616133/" class="fa fa-linkedin"> </a>
-          <a href="mailto:yasinehsan11@gmail.com?Subject=Visited%20Website%20--" class="fa fa-envelope" aria-hidden="true"></a>
-        </div>
+        </footer>
       </div>
 
-
-      <script type="text/javascript"> $('.fixed-action-btn').openFAB();
-      $('.fixed-action-btn').closeFAB();
-      $('.fixed-action-btn.toolbar').openToolbar();
-      $('.fixed-action-btn.toolbar').closeToolbar(); </script> <script
-      src="particles.js"></script> <script type="text/javascript">
-      particlesJS.load('particles-js', 'particles.json', function() {
-      console.log('callback - particles.js config loaded');}); </script>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <!-- Navbar -->
+      <script type="text/javascript">
+          $(".button-collapse").sideNav();
+      </script>
+      <!-- particles css -->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script type="text/javascript">
+        particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');});
+      </script>
     </body>
   </html>
