@@ -1,19 +1,19 @@
+/*Yasin Ehsan*/
+/*personal site*/
+
+/*general css...*/
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
-main {
-  flex: 1 0 auto;
-}
-footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
 #tab:hover, #name:hover, #social:hover{
     opacity: 0.6;
+}
+
+/*header*/
+header{
+
 }
 #bar{
   background-color: #1a1a1a;
@@ -31,25 +31,37 @@ footer{
 #mobilebar{
   color: #ff4d4d;
 }
-#side{ /*image of me*/
-  transform: rotate(-90deg);
-  max-width: 100%;
-  max-height: 100%;
-  flex-shrink: 0;
-  position: relative;
-  object-fit: cover;
-  left:0;
+/*main*/
+main {
+  flex: 1 0 auto;
+  display: flex;
 }
 #picdiv{
     justify-content: left;
     align-items: left;
     overflow: hidden;
-    height:80vh;
+    width:40%;
 }
-#bio{
+#pic{
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+  max-width: 165%;
+  margin-left: -35%;
+  margin-top: 20%
+}
+#biodiv{
   font-size: 200%;
-  width: 50%;
+  width: 60%;
   float: left;
+  padding-left: 0%;
+}
+
+/*footer*/
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .fa {
   font-size: 200%;
@@ -57,11 +69,9 @@ footer{
   color:#ff4d4d;
   padding-bottom: 2%;
 }
-*{
 
-}
 
-/**/
+
 /*
 HANDY THINGS TO KNOW
 -rotating image... transform: rotate(-90deg);
