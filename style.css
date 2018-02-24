@@ -6,6 +6,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
 }
 #tab:hover, #name:hover, #social:hover, #tab:hover{
     opacity: 0.6;
@@ -14,9 +15,6 @@ body {
 /*header*/
 header{
 
-}
-#bar{
-  font-family: 'Montserrat', sans-serif;
 }
 #name{
   color: #ff4d4d;
@@ -48,11 +46,9 @@ main {
   margin: 0% 0% 0% -40%;
 }
 #biodiv{
-  /*font-size: 200%;*/
+  font-size: 180%;
   float: left;
   padding: 2% 5% 8% 5%;
-  font: 200% 'Montserrat', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
   color: white;
 }
 #hi{
@@ -66,6 +62,20 @@ main {
   font-weight: 900;
   font-size: 100%;
 }
+/*h2{
+  font-size: 300%;
+	color:#ff4d4d;
+	border-left: 3px solid;
+  padding-left: 1%;
+	margin: 3% 0 0 5%;
+}*/
+.carousel .carousel-item {
+  width:40% !important;
+  margin-top: 10%;
+}
+/*#carouseldiv{
+  margin: 0 0 0 0;
+}*/
 /*footer*/
 footer{
   position: fixed;
@@ -86,5 +96,5 @@ footer{
 HANDY THINGS TO KNOW
 -rotating image... transform: rotate(-90deg);
 -background img... background-image: url("img/roof2.jpg");
-
+-font: 7 properties(any order) size, font-family;
 */
