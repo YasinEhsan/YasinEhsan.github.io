@@ -42,19 +42,22 @@
         </header>
         <main>
           <!-- <h2>Projects</h2> -->
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="books.JPG">
+          <div class="carousel" id="carouseldiv">
+              <a class="carousel-item waves-effect modal-trigger" href="#modal1"> <img src="/nyc.jpg" id="car"></a>
+              <a class="carousel-item waves-effect modal-trigger" href="#modal2"><img src="/books.JPG"><h1>Book Swap</h1></a>
+              <a class="carousel-item waves-effect modal-trigger" href="#modal3"><img src="/plane.JPG"></a>
+              <a class="carousel-item waves-effect modal-trigger" href="#modal4"><img src="/tic.JPG"></a>
+          </div>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4>Modal Header</h4>
+              <p>A bunch of text</p>
             </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Card Title<i class="fas fa-ellipsis-v">more_vert</i></span>
-              <p><a href="#">This is a link</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
             </div>
           </div>
+
         </main>
         <footer class="page-footer grey darken-4 center-align">
           <div id="footer">
@@ -65,22 +68,25 @@
         </footer>
       </div>
 
+      <!-- carousel mobile -->
+      <!-- <script type="text/javascript">
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+      </script> -->
+      <!-- modal -->
+      <script type="text/javascript">
+      $(document).ready(function(){
+       $('.modal').modal();
+      });
+      </script>
       <!-- carousel -->
       <script type="text/javascript">
       $(document).ready(function(){
-         $('.carousel').carousel({
-         });
+         $('.carousel').carousel({});
        });
       </script>
       <!-- Navbar -->
       <script type="text/javascript">
           $(".button-collapse").sideNav();
-      </script>
-      <!-- particles css -->
-      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-      <script type="text/javascript">
-        particlesJS.load('particles-js', 'particles.json', function() {
-        console.log('callback - particles.js config loaded');});
       </script>
     </body>
   </html>
