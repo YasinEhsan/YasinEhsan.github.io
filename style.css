@@ -1,32 +1,26 @@
 /*Yasin Ehsan*/
-/*personal site*/
 
-/*general css...*/
+/*universal css*/
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
 }
-#tab:hover, #name:hover, #social:hover, #tab:hover{
-    opacity: 0.6;
+#tab:hover, #name:hover, #social:hover{
+  opacity: 0.6;
 }
-
-/*header*/
-header{
-
-}
-#name{
+#mobilebar, #tab, .fa, #plus,
+#name, #bullet{
   color: #ff4d4d;
+}
+/*header*/
+#name{
   padding-left: 5%;
   font-size: 250%;
 }
 #tab{
   font-size: 150%;
-  color: #ff4d4d;
-}
-#mobilebar{
-  color: #ff4d4d;
 }
 /*main*/
 main {
@@ -62,20 +56,14 @@ main {
   font-weight: 900;
   font-size: 100%;
 }
-/*h2{
-  font-size: 300%;
-	color:#ff4d4d;
-	border-left: 3px solid;
-  padding-left: 1%;
-	margin: 3% 0 0 5%;
-}*/
-.carousel .carousel-item {
-  width:40% !important;
-  margin-top: 10%;
+#des{
 }
-/*#carouseldiv{
-  margin: 0 0 0 0;
-}*/
+#bullet{
+  font-size: 150%;
+  font-weight: 900;
+  font-style: italic;
+}
+
 /*footer*/
 footer{
   position: fixed;
@@ -86,15 +74,24 @@ footer{
 .fa {
   font-size: 200%;
   width: 10%;
-  color:#ff4d4d;
   padding-bottom: 2%;
 }
-
-
-
 /*
 HANDY THINGS TO KNOW
 -rotating image... transform: rotate(-90deg);
 -background img... background-image: url("img/roof2.jpg");
 -font: 7 properties(any order) size, font-family;
+
+DUMP
+.carousel .carousel-item {
+  width:40% !important;
+  margin-top: 10%;
+}
+h2{
+  font-size: 300%;
+	color:#ff4d4d;
+	border-left: 3px solid;
+  padding-left: 1%;
+	margin: 3% 0 0 5%;
+}
 */
