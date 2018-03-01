@@ -58,6 +58,7 @@ main {
 #des{
   width:100%;
   word-wrap: break-word;
+  padding-right: 10%;
 }
 #bullet{
   font-size: 150%;
