@@ -1,11 +1,15 @@
 /*Yasin Ehsan*/
 
 /*universal css*/
+html{
+    color: #ff4d4d;
+}
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 #tab:hover, #name:hover, #social:hover{
   opacity: 0.6;
@@ -13,6 +17,10 @@ body {
 #mobilebar, #tab, .fa, #plus,
 #name, #bullet{
   color: #ff4d4d;
+}
+#particles-js{
+  background:black;
+  height: 100vh;
 }
 /*header*/
 #name{
@@ -26,7 +34,17 @@ body {
 main {
   flex: 1 0 auto;
 }
-
+#label{
+  font-size: 400%;
+	color:white;
+	border-left: 3px solid;
+  padding-left: 3%;
+	margin: 3% 0 3% 0.5%;
+  font-weight: 100;
+}
+#content{
+  margin: 0 4% 0 4%;
+}
 #biodiv{
   font-size: 180%;
   float: left;
