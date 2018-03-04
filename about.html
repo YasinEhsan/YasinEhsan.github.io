@@ -1,6 +1,5 @@
 <!DOCTYPE html>
   <html class="black">
-
     <head>
       <title>About</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,14 +14,7 @@
       <!-- Stylesheets -->
       <link href="style.css" rel="stylesheet">
       <link href="animate.css" rel="stylesheet">
-
-      <style media="screen">
-      footer{
-        position: fixed;
-      }
-      </style>
     </head>
-
     <body>
       <div class="wrapper">
         <header>
@@ -30,7 +22,7 @@
             <div class="nav-wrapper grey darken-4">
               <a href="index.html" class="brand-logo" id="name">Yasin Ehsan</a>
               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
-              <ul class="right hide-on-med-and-down">
+              <ul class="right hide-on-med-and-down" id="pages">
                 <li><a href="about.html" class="navt" id="tab" >About</a></li>
                 <li><a href="projects.html" class="navt" id="tab">Projects</a></li>
                 <li><a href="papers.html" class="navt" id="tab">Papers</a></li>
@@ -46,7 +38,7 @@
           </nav>
         </header>
         <main>
-          <div class="row">
+          <div class="row" id="content">
             <div class="col s12 m12 l7">
               <div id="biodiv">
                 <span id="hi">Hi!</span><br>
@@ -55,7 +47,8 @@
                 <p>Computer Science major, Business minor.</p>
                 <p>Well-versed in Java, C++ and web development.</p>
                 <p>Love throwing footballs and eating tiramisu.</p>
-                <a href="mailto:yasinehsan11@gmail.com?Subject=Requesting%20Resume%20--%20(name)"><p>Resume.</p></a>
+                <p>My top <a href="projects.html" id="bioLinks">projects</a> and my best <a href="papers.html" id="bioLinks">papers</a>.</p>
+                <a href="mailto:yasinehsan11@gmail.com?Subject=Requesting%20Resume%20--%20(name)"><p id="bioLinks">Resume.</p></a>
              </div>
             </div>
             <div class="col s12 m12 l5">
@@ -65,7 +58,7 @@
             </div>
           </div>
         </main>
-        <footer class="page-footer grey darken-4 center-align">
+        <footer class="page-footer grey darken-4 center-align" style="position: fixed !important;">
           <div id="footer">
             <a class="fa fa-github" id="social" href="https://www.github.com/YasinEhsan">  </a>
             <a class="fa fa-linkedin" id="social" href="https://www.linkedin.com/in/yasin-ehsan-027616133/"> </a>
@@ -73,16 +66,9 @@
           </div>
         </footer>
       </div>
-
       <!-- Navbar -->
       <script type="text/javascript">
           $(".button-collapse").sideNav();
-      </script>
-      <!-- particles css -->
-      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-      <script type="text/javascript">
-        particlesJS.load('particles-js', 'particles.json', function() {
-        console.log('callback - particles.js config loaded');});
       </script>
     </body>
   </html>
