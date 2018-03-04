@@ -76,12 +76,15 @@ main {
 #des{
   width:100%;
   word-wrap: break-word;
-  padding-right: 10%;
+  padding:0 0% 0 5%;
 }
 #bullet{
-  font-size: 150%;
+  font-size: 120%;
   font-weight: 900;
   font-style: italic;
+}
+#des li{
+  color: black;
 }
 
 /*footer*/
