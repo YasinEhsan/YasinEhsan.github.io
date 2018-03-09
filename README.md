@@ -1,5 +1,5 @@
 # YasinEhsan.github.io
 
-A website about me.
+A site sharing my accomplishments. Hosted on GitHub.
 
-Using materialize css and HTML5 grid layout
+Yasinehsan.com
