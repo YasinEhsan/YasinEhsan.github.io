@@ -175,7 +175,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .btn {
-	font-family: Raleway, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 13px;
@@ -276,7 +276,7 @@ textarea.form-control {
 }
 
 .pfblock-subtitle {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-size: 18px;
 }
@@ -355,7 +355,7 @@ textarea.form-control {
 	padding: 0;
 }
 
-.home-overlay {
+/* .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
     background-image: url("../images/pattern.png");
     background-repeat: repeat;
@@ -365,7 +365,7 @@ textarea.form-control {
     top: 0;
     width: 100%;
     z-index: 0;
-}
+} */
 
 .intro {
 	position: absolute;
@@ -386,7 +386,7 @@ textarea.form-control {
 }
 
 .start {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
@@ -525,7 +525,7 @@ textarea.form-control {
 	border-radius: 0;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: Raleway, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-custom,
@@ -554,7 +554,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
@@ -904,7 +904,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
 .no-js .cbp-qtrotator .cbp-qtcontent {
-	position: relative; 
+	position: relative;
 	z-index: 100;
 	pointer-events: auto;
 	opacity: 1;
@@ -957,7 +957,7 @@ figure.effect-bubba:hover p {
 }
 
 /* Example for media query */
-@media screen and (max-width: 30.6em) { 
+@media screen and (max-width: 30.6em) {
 
 	.cbp-qtrotator {
 		font-size: 70%;
@@ -968,4 +968,3 @@ figure.effect-bubba:hover p {
 	}
 
 }
-
