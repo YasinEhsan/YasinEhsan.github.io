@@ -357,16 +357,12 @@ textarea.form-control {
 	height: 75vh;
 }
 
-/* .home-overlay {
-    background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("../images/pattern.png");
-    background-repeat: repeat;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 0;
+#social{
+	font-size: 1.5em;
+	padding: 10px;
+}
+/* #social:hover{
+	color: white;
 } */
 
 .intro {
@@ -384,17 +380,9 @@ textarea.form-control {
 }
 
 .intro h1{
-    font-weight: 100;
-		font-size: 50px;
+    font-weight: 300;
+		font-size: 35px;
 }
-
-/* .start {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	text-transform: none;
-	margin: 15px 0;
-} */
 
 /* ---------------------------------------------- /*
  * Servise
