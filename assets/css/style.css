@@ -342,8 +342,8 @@ textarea.form-control {
  * Home
 /* ---------------------------------------------- */
 
-#home {
-	background: url(../images/cover.jpg);
+.home {
+	background: url(../img/nightsky.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -353,6 +353,10 @@ textarea.form-control {
 		 -o-background-size: cover;
 			background-size: cover;
 	padding: 0;
+}
+
+#particles-js{
+  height: 10vh;
 }
 
 /* .home-overlay {
@@ -382,16 +386,17 @@ textarea.form-control {
 }
 
 .intro h1{
-    font-weight: 800;
+    font-weight: 100;
+		font-size: 50px;
 }
 
-.start {
+/* .start {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
 	margin: 15px 0;
-}
+} */
 
 /* ---------------------------------------------- /*
  * Servise
