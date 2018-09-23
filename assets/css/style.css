@@ -343,22 +343,19 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .home {
-	background: url(../img/nightsky.jpg);
+	background: url(../img/nightsky.jpg) no-repeat center center fixed;
 	height: 100vh;
 	background-color: #222;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-		 -o-background-size: cover;
-			background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	padding: 0;
 }
 
-#particles-js{
+/* #particles-js{
 
-}
+} */
 
 /* .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
