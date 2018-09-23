@@ -357,14 +357,6 @@ textarea.form-control {
 	height: 75vh;
 }
 
-#social{
-	font-size: 250%;
-	padding: 30px;
-}
-/* #social:hover{
-	color: white;
-} */
-
 .intro {
 	position: absolute;
 	width: 100%;
@@ -381,7 +373,12 @@ textarea.form-control {
 
 .intro h1{
     font-weight: 300;
-		font-size: 4050%;
+		font-size: 450%;
+}
+
+#social{
+	font-size: 300%;
+	padding: 30px;
 }
 
 /* ---------------------------------------------- /*
@@ -643,32 +640,6 @@ textarea.form-control {
 	30%  { top:10px; opacity: 1;}
 	100% { top:25px; opacity: 0;}
 }
-
-/* ---------------------------------------------- /*
- * Preloader
-/* ---------------------------------------------- */
-
-/* #preloader {
-	background: #FFF;
-	bottom: 0;
-	left: 0;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 9999;
-} */
-
-/* #status {
-	background-image: url(../images/preloader.gif);
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 200px;
-	left: 50%;
-	margin: -100px 0 0 -100px;
-	position: absolute;
-	top: 50%;
-	width: 200px;
-} */
 
 /* ---------------------------------------------- /*
  * Media
