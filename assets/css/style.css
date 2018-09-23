@@ -344,6 +344,7 @@ textarea.form-control {
 
 .home {
 	background: url(../img/nightsky.jpg);
+	height: 100vh;
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -356,7 +357,7 @@ textarea.form-control {
 }
 
 #particles-js{
-  height: 10vh;
+
 }
 
 /* .home-overlay {
