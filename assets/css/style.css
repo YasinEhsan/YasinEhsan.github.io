@@ -382,8 +382,13 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------- /*
- * Servise
+ * About
 /* ---------------------------------------------- */
+
+#biodiv p{
+	font-weight: 500;
+	font-size: 125%;
+}
 
 .iconbox {
 	background: #fff;
