@@ -11,10 +11,10 @@
 
 ### Debug
  - Trying to access non-SSL certified links from a secure connection will not work. Instead change the URL to without the protocol OR change http links to https.
- > Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`
+  - Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`
 
 - Found warning when I ran Chrome Inspector. Apparently Google Chrome updated Smoothscroll.js. Quick Fix:
-> *Replace*
+ - *Replace*
  ```javascript
  var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
  if (ischrome) {
