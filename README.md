@@ -4,16 +4,12 @@
 
 [Portfolio site](https://yasinehsan.com/) hosted using Git Pages.
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [*Readme Contents*](#yasinehsangithubio)
-	- [To Do](#to-do)
-	- [Video Walkthrough](#video-walkthrough)
-	- [Useful Links](#useful-links)
-	- [Debug Issues](#debug-issues)
-	- [License](#license)
-
-<!-- /TOC -->
+## Readme Contents
+- [To Do](#to-do)
+- [Video Walkthrough](#video-walkthrough)
+- [Useful Links](#useful-links)
+- [Debug Issues](#debug-issues)
+- [License](#license)
 
 ## To Do
 - [ ] Connect with Google Analytics
