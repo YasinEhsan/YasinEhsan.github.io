@@ -1,5 +1,12 @@
 # YasinEhsan.github.io
 
-A site sharing my accomplishments. Hosted on GitHub.
+[Portfolio site](Yasinehsan.com) hosted using Git Pages.
 
-Yasinehsan.com
+
+### Useful Links
+- [Set up git pages with custom domain](https://medium.com/@kimcodes/setting-up-a-web-page-with-github-pages-f77d45573ab2)
+- [SSL with custom domain](https://www.youtube.com/watch?v=UK5-nO4qK9g)
+- [Set up Google Analytics](https://www.youtube.com/watch?v=mXcQ7rVn3ro)
+
+
+### Demo
