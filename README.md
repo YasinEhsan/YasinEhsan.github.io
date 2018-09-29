@@ -14,27 +14,27 @@
 
    Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`
 
-2. Found warning when I ran Chrome Inspector. Apparently Google Chrome updated Smoothscroll.js. Qu- ick Fix:
+2. Found warning when I ran Chrome Inspector. Apparently Google Chrome updated Smoothscroll.js. Quick Fix:
 
   *Replace*
-   ```javascript
- var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
- if (ischrome) {
-     ssc_addEvent("mousedown", ssc_mousedown);
-     ssc_addEvent("mousewheel", ssc_wheel);
-     ssc_addEvent("load", ssc_init)
- }
-```
-*with*
-```Javascript
-var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
-if (false) {                          REPLACEMENT
-	ssc_addEvent("mousedown", ssc_mousedown);
-	ssc_addEvent("mousewheel", ssc_wheel);
-	ssc_addEvent("load", ssc_init);
- }
- ```
- **Note:** isChrome is just a variable.
+  ```javascript
+   var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
+   if (ischrome) {
+       ssc_addEvent("mousedown", ssc_mousedown);
+       ssc_addEvent("mousewheel", ssc_wheel);
+       ssc_addEvent("load", ssc_init)
+   }
+  ```
+  *with*
+  ```Javascript
+  var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
+  if (false) {                          REPLACEMENT
+  	ssc_addEvent("mousedown", ssc_mousedown);
+  	ssc_addEvent("mousewheel", ssc_wheel);
+  	ssc_addEvent("load", ssc_init);
+   }
+   ```
+   **Note:** isChrome is just a variable.
 
 
 
