@@ -17,6 +17,7 @@
 2. Found warning when I ran Chrome Inspector. Apparently Google Chrome updated Smoothscroll.js. Quick Fix:
 
   *Replace*
+
   ```javascript
    var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
    if (ischrome) {
@@ -25,7 +26,9 @@
        ssc_addEvent("load", ssc_init)
    }
   ```
+
   *with*
+
   ```Javascript
   var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
   if (false) {                          REPLACEMENT
@@ -34,6 +37,7 @@
   	ssc_addEvent("load", ssc_init);
    }
    ```
+   
    **Note:** isChrome is just a variable.
 
 
