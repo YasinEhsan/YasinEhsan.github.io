@@ -295,8 +295,14 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../img/cubes.jpg);
-	background-color: #222;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+
+  /* background: url(../img/cubes.jpg); */
+	/* ßbackground-color: #222; */
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	-webkit-background-size: cover;
@@ -304,7 +310,43 @@ textarea.form-control {
 		 -o-background-size: cover;
 			background-size: cover;
 	padding: 50px 0;
-	color: #999;
+	/* color: #999; */
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 .calltoaction h2 {
@@ -440,7 +482,7 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------- /*
- * Contact
+ * Call-to-action + Contact
 /* ---------------------------------------------- */
 
 .ajax-response {
