@@ -4,6 +4,17 @@
 
 [Portfolio site](https://yasinehsan.com/) hosted using Git Pages.
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [*YasinEhsan.github.io*](#yasinehsangithubio)
+	- [To Do](#to-do)
+	- [Video Walkthrough](#video-walkthrough)
+	- [Useful Links](#useful-links)
+	- [Debug Issues](#debug-issues)
+	- [License](#license)
+
+<!-- /TOC -->
+
 ## To Do
 - [ ] Connect with Google Analytics
 - [ ] Add Thumbnail
@@ -49,62 +60,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
     }
     ```
     **Note:** isChrome is just a variable.
-
-
-
-
-
-
-
-
-
-
-
-
-
-1. Trying to access non-SSL certified links from a secure connection will not work. Instead change the URL to without the protocol OR change http links to https.
-
-   Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`
-
-2. Found warning when I ran Chrome Inspector. Apparently Google Chrome updated Smoothscroll.js. Quick Fix:
-
-   Replace
-  ```javascript
-   var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
-   if (ischrome) {
-       ssc_addEvent("mousedown", ssc_mousedown);
-       ssc_addEvent("mousewheel", ssc_wheel);
-       ssc_addEvent("load", ssc_init)
-   }
-  ```
-  with
-  ```Javascript
-  var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
-  if (false) {                          REPLACEMENT
-  	ssc_addEvent("mousedown", ssc_mousedown);
-  	ssc_addEvent("mousewheel", ssc_wheel);
-  	ssc_addEvent("load", ssc_init);
-   }
-   ```
-   **Note:** isChrome is just a variable.
-
-
-- > Trying to access non-SSL certified links from a secure connection will not work. Instead change the URL to without the protocol OR change http links to https.
- >Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`	 >>Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`
- - Found warning when I ran Chrome Inspector. Apparently Google Chrome updated Smoothscroll.js. Quick Fix:	- >Found warning when I ran Chrome Inspector. Apparently Google Chrome updated Smoothscroll.js. Quick Fix:
-> *Replace*	>> *Replace*
- ```javascript	 ```javascript
- var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());	 var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
- if (ischrome) {	 if (ischrome) {
-@@ -25,7 +25,8 @@
-```	```
-*with*	*with*
-```Javascript	```Javascript
-If (false) {                          REPLACEMENT	var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
-if (false) {                          REPLACEMENT
-	ssc_addEvent("mousedown", ssc_mousedown);		ssc_addEvent("mousedown", ssc_mousedown);
-	ssc_addEvent("mousewheel", ssc_wheel);		ssc_addEvent("mousewheel", ssc_wheel);
-	ssc_addEvent("load", ssc_init);		ssc_addEvent("load", ssc_init);
 
 ## License
 © 2018 Yasin Ehsan
