@@ -6,7 +6,7 @@
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [*YasinEhsan.github.io*](#yasinehsangithubio)
+- [*Readme Contents*](#yasinehsangithubio)
 	- [To Do](#to-do)
 	- [Video Walkthrough](#video-walkthrough)
 	- [Useful Links](#useful-links)
