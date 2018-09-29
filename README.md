@@ -51,42 +51,29 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
    ```
    **Note:** isChrome is just a variable.
 
-   <ul>
-     <li>Coffee</li>
-     <li>Found warning when I ran Chrome Inspector. Apparently Google Chrome updated Smoothscroll.js. Quick Fix:
-       <ul>
-         <li>
-         *Replace*
 
-         ```javascript
-          var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
-          if (ischrome) {
-              ssc_addEvent("mousedown", ssc_mousedown);
-              ssc_addEvent("mousewheel", ssc_wheel);
-              ssc_addEvent("load", ssc_init)
-          }
-         ```
+   -  Trying to access non-SSL certified links from a secure connection will not work. Instead change the URL to without the protocol OR change http links to https.
+    >Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`
 
-         *with*
-
-         ```Javascript
-         var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
-         if (false) {                          REPLACEMENT
-         	ssc_addEvent("mousedown", ssc_mousedown);
-         	ssc_addEvent("mousewheel", ssc_wheel);
-         	ssc_addEvent("load", ssc_init);
-          }
-          ```
-
-          **Note:** isChrome is just a variable.
-
-
-         </li>
-         <li>Green tea</li>
-       </ul>
-     </li>
-     <li>Milk</li>
-   </ul>
+- Found warning when I ran Chrome Inspector. Apparently Google Chrome updated Smoothscroll.js. Quick Fix:
+   > *Replace*
+    ```javascript
+    var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
+    if (ischrome) {
+        ssc_addEvent("mousedown", ssc_mousedown);
+        ssc_addEvent("mousewheel", ssc_wheel);
+        ssc_addEvent("load", ssc_init)
+    }
+   ```
+   *with*
+   ```Javascript
+   If (false) {                          REPLACEMENT
+   	ssc_addEvent("mousedown", ssc_mousedown);
+   	ssc_addEvent("mousewheel", ssc_wheel);
+   	ssc_addEvent("load", ssc_init);
+    }
+    ```
+    **Note:** isChrome is just a variable.
 
 ## License
 © 2018 Yasin Ehsan
