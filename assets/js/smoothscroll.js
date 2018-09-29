@@ -297,7 +297,7 @@ var ssc_uniqueID = function () {
 
 var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
 
-If (false) {                          
+if (false) {
 	ssc_addEvent("mousedown", ssc_mousedown);
 	ssc_addEvent("mousewheel", ssc_wheel);
 	ssc_addEvent("load", ssc_init);
