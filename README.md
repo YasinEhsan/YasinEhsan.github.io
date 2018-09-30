@@ -11,7 +11,7 @@
 - [Debug Issues](#debug-issues)
 - [License](#license)
 
-## To Do
+## To Do (Stretch)
 - [ ] Connect with Google Analytics
 - [ ] Add Thumbnail
 - [ ] Add Bookmark Icon
