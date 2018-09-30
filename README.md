@@ -13,6 +13,7 @@
 
 ## To Do (Stretch)
 - [ ] Connect with Google Analytics
+- [ ] Connect Google Tag Manager
 - [ ] Add Thumbnail
 - [ ] Add Bookmark Icon
 - [ ] Projects Text
