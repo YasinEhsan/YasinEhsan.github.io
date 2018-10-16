@@ -353,6 +353,8 @@ textarea.form-control {
 	padding: 0;
 }
 
+height: 100vh;
+
 #particles-js{
 	height: 75vh;
 }
