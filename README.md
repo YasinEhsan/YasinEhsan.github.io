@@ -52,6 +52,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
     **Note:** isChrome is just a variable.
 
 ## License
+
 © 2018 Yasin Ehsan
 
 Licensed under the [Apache License](LICENSE).
