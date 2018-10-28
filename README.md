@@ -53,3 +53,5 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## License
 © 2018 Yasin Ehsan
+
+Licensed under the [Apache License](LICENSE).
