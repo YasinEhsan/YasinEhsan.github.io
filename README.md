@@ -4,13 +4,6 @@
 
 [Portfolio site](https://yasinehsan.com/) hosted using Git Pages.
 
-## Readme Contents
-- [Video Walkthrough](#video-walkthrough)
-- [To Do](#to-do)
-- [Useful Links](#useful-links)
-- [Debug Issues](#debug-issues)
-- [License](#license)
-
 ## Video Walkthrough
 ![mySite](mySite.gif)
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
