@@ -5,11 +5,15 @@
 [Portfolio site](https://yasinehsan.com/) hosted using Git Pages.
 
 ## Readme Contents
-- [To Do](#to-do)
 - [Video Walkthrough](#video-walkthrough)
+- [To Do](#to-do)
 - [Useful Links](#useful-links)
 - [Debug Issues](#debug-issues)
 - [License](#license)
+
+## Video Walkthrough
+![mySite](mySite.gif)
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## To Do (Stretch)
 - [x] Connect with Google Analytics
@@ -20,11 +24,6 @@
 - [ ] Articles Text
 - [ ] Skills Text
 - [ ] \(Maybe) button for freelance
-
-## Video Walkthrough
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Useful Links
 - [Set up git pages with custom domain](https://medium.com/@kimcodes/setting-up-a-web-page-with-github-pages-f77d45573ab2)
