@@ -5,7 +5,7 @@
 [Portfolio site](https://yasinehsan.com/) hosted using Git Pages.
 
 ## Video Walkthrough
-![mySite](mySite.gif)
+![mySite](assets/gif/mySite.gif)
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## To Do (Stretch)
