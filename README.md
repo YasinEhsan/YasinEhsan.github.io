@@ -1,22 +1,17 @@
 # *YasinEhsan.github.io*
-
-**Version 2.0.0**
-
 [Portfolio site](https://yasinehsan.com/) hosted using Git Pages.
 
+**Version 3.0**
+## Video Walkthrough
+![mySite](assets/gif/mySite.gif)
+
+
+
+**Version 2.0**
 ## Video Walkthrough
 ![mySite](assets/gif/mySite.gif)
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## To Do (Stretch)
-- [x] Connect with Google Analytics
-- [ ] Connect Google Tag Manager
-- [ ] Add Thumbnail
-- [ ] Add Bookmark Icon
-- [ ] Projects Text
-- [ ] Articles Text
-- [ ] Skills Text
-- [ ] \(Maybe) button for freelance
 
 ## Useful Links
 - [Set up git pages with custom domain](https://medium.com/@kimcodes/setting-up-a-web-page-with-github-pages-f77d45573ab2)
