@@ -2631,9 +2631,9 @@ input, select, textarea {
 	top: 0;
 	left: 0;
 	width: 100%;
-}
+}*/
 
-.color-overlay {
+/* .color-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2658,6 +2658,8 @@ input, select, textarea {
 	 height: 100%;
 	 width: 100%;
 	 object-fit: cover;
+
+	 opacity: .1;
 
 	 /* position: absolute;
 	 width: 100
@@ -2697,7 +2699,7 @@ input, select, textarea {
 			float: left;
 			margin: 0 1.5rem 1rem 0;
 			top: 0.25rem;
-		} 
+		}
 
 		 .image.right {
 			float: right;
