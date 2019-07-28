@@ -2670,6 +2670,11 @@ input, select, textarea {
 		border-radius: 4px; */
  }
 
+ /* Gif */
+ 	img .giff: hover {
+		opacity: 0.2 !important;
+	}
+
 
 /* Image */
 
