@@ -9,7 +9,7 @@
 
 **Version 2.0**
 ## Video Walkthrough
-![mySite](assets/gif/mySite.gif)
+![mySite](assets/readme/v1.gif)
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 
